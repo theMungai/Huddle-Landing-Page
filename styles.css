@@ -208,7 +208,12 @@ body {
     height: auto;
     background-color: var(--very-dark-cyan);
     display: flex;
+    justify-content: space-between;
     padding: 120px;
+}
+
+.footer-company-details{
+    width: 80%;
 }
 
 .below-logo{
@@ -259,6 +264,7 @@ body {
 
 .news-letter{
     color: var(--very-pale-blue);
+    width: 50%;
 }
 
 .news-letter h1{
@@ -717,6 +723,14 @@ body {
     }
     
     
+    }
+
+    /* =============== Tablets ========== */
+    @media (min-width:768px) and (max-width : 991px){
+        .footer-container{
+            padding: 40px;
+            
+        }
     }
     
 
