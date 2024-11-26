@@ -26,8 +26,6 @@ body {
     width: 100%;
     height: auto;
     padding-top: 50px;
-    /* border: 2px solid red; */
-    margin: 0px auto;
 }
 
 .header{
@@ -129,7 +127,7 @@ body {
 .grow-together,
 .flowing-conversations,
 .your-user{
-    margin-top: 250px;
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -172,7 +170,7 @@ body {
 
 .ready-to-build{
     text-align: center;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .ready-to-build h1 {
@@ -319,6 +317,206 @@ body {
 }
 
 
+/* ============= Media Queries ======================= */
+/* ============= Mobile Device ======================= */
+
+@media (max-width:480px){
+
+.main-container{
+    width: 100%;
+    margin: 0px auto;
+}
+.header{
+    width: 95%;
+}
+
+.body-container{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.header img {
+    width: 120px;
+}
+
+.header button {
+    padding: 7px 20px;
+}
+
+
+.build-community{
+    width: 100%;
+    margin: 50px auto;
+}
+
+.build-community h2 {
+    font-size: 1.8rem; 
+}
+
+.build-community p{
+    width: 100%;
+    line-height: 1.7rem;
+    font-size: 1rem;
+}
+
+.build-community button{
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+
+}
+
+
+.counts{
+    display: block;
+    row-gap: 4rem;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.counts img {
+    width: 30px;
+
+}
+
+.counts h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.messages-sent{
+    padding-top: 50px;
+}
+
+
+.grow-together,
+.your-user{
+    margin-top: 200px;
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+.flowing-conversations{
+    margin-top: 200px;
+    display: block;
+}
+
+.grow-together-description,
+.flowing-conversations-text,
+.your-user-text {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.grow-together-description h1,
+.flowing-conversations-text h1,
+.your-user-text h1{
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.grow-together-image,
+.flowing-conversations-image,
+.your-user-image {
+    width: 100%;
+    
+}
+
+.grow-together-image img,
+.flowing-conversations-image img,
+.your-user-image img {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.ready-to-build{
+    margin-top: 100px;
+}
+
+.ready-to-build h1 {
+    font-size: 1.5rem;
+}
+
+.ready-to-build button {
+    padding: 15px 50px;
+    font-size: 1rem;
+}
+
+
+.footer{
+    height: 80px;
+    margin-top: 200px;
+    background: url(images/bg-footer-top-mobile.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+}
+
+.company-contacts{
+    width: 100%;
+}
+
+.footer-company-details{
+    margin-top: 80px;
+}
+
+.company-socials {
+    font-size: 2rem;
+}
+
+
+.news-letter p,
+.below-logo {
+    padding: 30px 0px;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    width: 100%;
+}
+
+.logo-footer{
+    width: 150px;
+}
+
+.subscribe{
+    display: block;
+}
+
+.input-wrapper{
+    width: 100%;
+}
+
+.subscribe input {
+    width: 100%;
+    padding: 18px;
+    margin: 12px 0px;
+}
+
+
+.message{
+    padding: 10px 0px;
+    
+}
+
+.subscribe button{
+    font-size: 1rem;
+    padding: 15px 30px;
+    float: right;
+
+}
+
+
+}
 
 
 
@@ -336,11 +534,11 @@ body {
 
 
 
-.attribution { 
+/* .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
     
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
+} */
