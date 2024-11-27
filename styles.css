@@ -475,6 +475,11 @@ body {
 
 .footer-company-details{
     margin-top: 80px;
+    width: 100%;
+}
+
+.news-letter{
+    width: 100%;
 }
 
 .company-socials {
@@ -676,8 +681,12 @@ body {
     
     .footer-company-details{
         margin-top: 80px;
+        width: 100%;
     }
     
+    .news-letter{
+        width: 100%;
+    }
     .company-socials {
         font-size: 2rem;
     }
